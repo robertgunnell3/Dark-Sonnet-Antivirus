@@ -1,0 +1,12 @@
+# Antivirus System Requirements
+# Install with: pip install -r requirements.txt --break-system-packages
+
+# Core dependencies
+psutil>=5.9.0        # Process and system monitoring
+
+# Optional but recommended
+# colorama>=0.4.6    # Enhanced terminal colors (Windows)
+# requests>=2.31.0   # For future cloud signature updates
+# pyyara>=4.3.1      # Advanced pattern matching (requires compilation)
+# pefile>=2023.2.7   # PE file analysis
+# python-magic>=0.4.27  # File type detection

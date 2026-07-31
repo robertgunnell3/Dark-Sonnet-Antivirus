@@ -1,0 +1,20 @@
+{
+  "name": "DarkSonnetAntivirus",
+  "version": "unspecified",
+  "private": true,
+  "workspaces": [
+    "packages\\DarkSonnetAntivirus-composeApp",
+    "packages\\DarkSonnetAntivirus-composeApp-test",
+    "packages\\DarkSonnetAntivirus-shared",
+    "packages\\DarkSonnetAntivirus-shared-test",
+    "packages_imported/skiko-js/0.9.37-3",
+    "packages_imported/Kotlin-DateTime-library-kotlinx-datetime/0.7.1",
+    "packages_imported/components-resources-js/1.10.0"
+  ],
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": [],
+  "resolutions": {}
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Generic.Trojan.MZ",
+    "signature": "4d5a",
+    "type": "trojan",
+    "severity": "low",
+    "description": "Generic MZ executable header"
+  },
+  {
+    "name": "Ransomware.WannaCry.Pattern",
+    "signature": "406563727970744041",
+    "type": "ransomware",
+    "severity": "critical",
+    "description": "WannaCry ransomware pattern"
+  },
+  {
+    "name": "Trojan.Emotet.String",
+    "signature": "656d6f74657420626f74",
+    "type": "trojan",
+    "severity": "high",
+    "description": "Emotet trojan identifier"
+  },
+  {
+    "name": "Backdoor.Generic.Shell",
+    "signature": "2f62696e2f7368",
+    "type": "backdoor",
+    "severity": "high",
+    "description": "/bin/sh string common in backdoors"
+  },
+  {
+    "name": "Exploit.PDF.Embedded",
+    "signature": "255044462d312e",
+    "type": "exploit",
+    "severity": "medium",
+    "description": "PDF with potential embedded exploit"
+  },
+  {
+    "name": "Worm.Generic.AutoRun",
+    "signature": "5b6175746f72756e5d",
+    "type": "worm",
+    "severity": "high",
+    "description": "AutoRun.inf pattern used by worms"
+  },
+  {
+    "name": "Miner.CoinMiner.Pattern",
+    "signature": "7374726174756d2b746370",
+    "type": "miner",
+    "severity": "medium",
+    "description": "Cryptocurrency miner pattern"
+  },
+  {
+    "name": "Rootkit.Generic.Hook",
+    "signature": "5a77517565727956697274",
+    "type": "rootkit",
+    "severity": "critical",
+    "description": "Rootkit hooking pattern"
+  },
+  {
+    "name": "Spyware.Keylogger.Pattern",
+    "signature": "4765744173796e634b6579",
+    "type": "spyware",
+    "severity": "high",
+    "description": "Keylogger API pattern"
+  },
+  {
+    "name": "Downloader.Generic.URL",
+    "signature": "687474703a2f2f",
+    "type": "downloader",
+    "severity": "low",
+    "description": "HTTP URL pattern (may download malware)"
+  }
+]
